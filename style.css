@@ -1,0 +1,225 @@
+html
+{
+    background: linear-gradient(#51524f, hwb(0 23% 77%));
+
+
+}
+body {
+    background-image: url(images/image-lion-background.png);
+    background-position:top;
+    align-items: center;
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+
+}
+
+
+.container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.cards1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-color: rgb(209, 9, 159);
+    min-height: 240px;
+    width: 30%;
+
+}
+
+.cards2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 240px;
+    width: 30%;
+}
+
+
+.cards3 {
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 240px;
+    width: 30%;
+}
+
+.cards1,
+.cards2,
+.cards3 {
+
+    padding: 30px 20px 20px 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+
+}
+
+
+.herobox1 {
+    flex: 2;
+    padding-right: 80px;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.25rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p {
+    line-height: 1.25rem;
+    margin-bottom: 0.45rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+
+}
+
+.cards p {
+    font-size: 1rem;
+    /* margin: 10px, 30px, 20px, 30px; */
+}
+
+.cards i {
+    font-size: 80px;
+    /* padding-top: 20px; */
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.myButton {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 21px;
+    color: rgb(59, 58, 58);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.075);
+
+
+}
+
+.myButton:hover {
+    background-color: rgb(216, 202, 7);
+    transition-duration: 1s;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.navButton {
+    text-decoration: none;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FA4083;
+    padding: 10px 21px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.075);
+    position: relative;
+
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.075);
+}
+
+.tbox :last-child {
+    text-align: center;
+}
+
+.testimonialsHeading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 10px;
+}
+
+.navButton:hover .dropdown {
+    display: block;
+
+}
+
+.dropdown .navButton {
+    width: 92px;
+    text-align: center;
+    margin-left: -20px;
+    text-decoration: none;
+    /* padding-top: 15px; */
+
+}
+
+a {
+    text-decoration: none;
+    color: #51524f;
+}
